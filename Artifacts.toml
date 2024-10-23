@@ -1,143 +1,151 @@
 [[MongoC]]
 arch = "aarch64"
-git-tree-sha1 = "2ea3f18277f8d6b82db1ab56cafa44c7f1bfca3f"
+git-tree-sha1 = "79e4e134ce4bba765d16c3b3da2a0698ab210756"
 os = "macos"
 
     [[MongoC.download]]
-    sha256 = "93ad84a31bb912d7390ee5248df438ec97aa65548c1c634df7aa2e551ee38d3c"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.aarch64-apple-darwin.tar.gz"
+    sha256 = "673fea6028af22c07b18742b71c643f975fcf9c13f8600aff222e8cd81ea45cf"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.aarch64-apple-darwin.tar.gz"
 [[MongoC]]
 arch = "aarch64"
-git-tree-sha1 = "b8ef7cbbc04a03b125e8b3023342b84cd4ea92e3"
+git-tree-sha1 = "2edb3cbe345f89511e6224969bbc267048db3971"
 libc = "glibc"
 os = "linux"
 
     [[MongoC.download]]
-    sha256 = "041c783ccc14416a6533689229171e495ed4bcda995bf718c497f0cabb64f54f"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.aarch64-linux-gnu.tar.gz"
+    sha256 = "eb68a6bf733241b6c16ad6138a0f51f0cee375399dae0e5880c900b848cb8006"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.aarch64-linux-gnu.tar.gz"
 [[MongoC]]
 arch = "aarch64"
-git-tree-sha1 = "7bf3860c1a1b7042a7df1e1ce3c2372813d316b2"
+git-tree-sha1 = "30ce899ccf27eb44b6de8dd2e2be2a3ab7eb6ca4"
 libc = "musl"
 os = "linux"
 
     [[MongoC.download]]
-    sha256 = "1e534e04c7d02804dbf5af83b7e5c47097f5631099883c93f2c16799774cd7e5"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.aarch64-linux-musl.tar.gz"
+    sha256 = "cec6d529fe5aff6e2436e323032dd07c5bd9523be0b1187e5119931cfac9010f"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.aarch64-linux-musl.tar.gz"
 [[MongoC]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "3c82e7cb65b75b3203500f01a0400331f042d639"
-libc = "glibc"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "83d32fa046b27cfdcc2f2fe8bd115ad4475999aa09a253bc85c471d343000bc0"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.armv6l-linux-gnueabihf.tar.gz"
-[[MongoC]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "ad9abe05ce5e2c280d167b0f7c89ef47d8be991d"
-libc = "musl"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "7303146df12d8a49eaeb86c18eb95168aa62c95b1e8da432bf60b3987e8b1c98"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.armv6l-linux-musleabihf.tar.gz"
-[[MongoC]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "6dec1ac2dc0c5f18c61c68741107a4c4ef566085"
-libc = "glibc"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "bd4f570c53003965c4338fdb6119641269aaf9b9c6694ec01f757afe0498356a"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.armv7l-linux-gnueabihf.tar.gz"
-[[MongoC]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "a60b9e32fdb065e378229df4d69f9aabbe0e3f43"
-libc = "musl"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "50b3ed6f82b74a4d64666b5c0dfb68e126003aef9b34797fff76e98f727270d6"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.armv7l-linux-musleabihf.tar.gz"
-[[MongoC]]
-arch = "i686"
-git-tree-sha1 = "bc4c2669fc97934a1a9cf05daeb83be26ea8caef"
-libc = "glibc"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "73cc036ed6e60d9e1cda0b6464b2b8c739b7a9fd62ef0a46f08438ed2b6c15fd"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.i686-linux-gnu.tar.gz"
-[[MongoC]]
-arch = "i686"
-git-tree-sha1 = "7fce4a3b52b1d748047b1edeee033d32bae03b13"
-libc = "musl"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "92c74db3c400c5784a74bddc65f0c7f39657de91ada979b7f4bc662ffdb8cf8d"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.i686-linux-musl.tar.gz"
-[[MongoC]]
-arch = "i686"
-git-tree-sha1 = "4cec4d0d159273049e5d9b1ebf3ab57ab8ef362e"
-os = "windows"
-
-    [[MongoC.download]]
-    sha256 = "d8ec4aa74f316208775f156b15a7542488555682f24a9c032cb995e5135f006a"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.i686-w64-mingw32.tar.gz"
-[[MongoC]]
-arch = "powerpc64le"
-git-tree-sha1 = "0a9a60c3e06745fed60c133daac95cde5b8f3f66"
-libc = "glibc"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "04b05fe87a2fc739b1fbbad37b78caca2b8b02ae4ac30f2440b164eacff3a66b"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.powerpc64le-linux-gnu.tar.gz"
-[[MongoC]]
-arch = "x86_64"
-git-tree-sha1 = "398404690c1d9f0b1603fe1fdd886578603edb61"
-os = "macos"
-
-    [[MongoC.download]]
-    sha256 = "2919b78cb1c324210dab2421c2cfa41efbe9beaa9169daa172c9d2da37d65d96"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.x86_64-apple-darwin.tar.gz"
-[[MongoC]]
-arch = "x86_64"
-git-tree-sha1 = "b4eaa7bb890b09ed9a8a26c2b79b8603c581c504"
-libc = "glibc"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "2ec083725ab3dbeeb8dbe7e743e3a84138d2e5375c1fe691ba0779418b3007d3"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.x86_64-linux-gnu.tar.gz"
-[[MongoC]]
-arch = "x86_64"
-git-tree-sha1 = "66b42a7d99f29ec18e78822753867fb0e66fb5d7"
-libc = "musl"
-os = "linux"
-
-    [[MongoC.download]]
-    sha256 = "422fb9993c59af843cb1575c0864587dbde36e86c7a9aa4f074cf29c10bebaf5"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.x86_64-linux-musl.tar.gz"
-[[MongoC]]
-arch = "x86_64"
-git-tree-sha1 = "55d2558424705094bd540c8d02f47fbeaca55df5"
+arch = "aarch64"
+git-tree-sha1 = "afd759ca184e6e77b3e5a3408007d2e5fb9411fb"
 os = "freebsd"
 
     [[MongoC.download]]
-    sha256 = "a429c9064107f51701c921d3e0b1c042fef8acfaa0ff2934ef98a2e0117c0e21"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "52400b98e42c3a0d238d5a4a2be12b93615a0b670a809397cbf8a05aadcf266a"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.aarch64-unknown-freebsd.tar.gz"
 [[MongoC]]
-arch = "x86_64"
-git-tree-sha1 = "124015fefff801be55c787a01cd6108d9757c8d3"
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "01655d092a0f7485ef75372693a1774b9ce53094"
+libc = "glibc"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "d360942bb37f6bc7fdf3744379f74c4331d21ff0fee094cfca92c37480f4b6ac"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.armv6l-linux-gnueabihf.tar.gz"
+[[MongoC]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "fff8b462a17b2ea8006c3dc25a9aabb7883b9796"
+libc = "musl"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "b6fadf934b9c5bf15cb55692b47261e55d474f71e9b82c891790fdae89fe58ee"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.armv6l-linux-musleabihf.tar.gz"
+[[MongoC]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d23671d32b88b22b41d2b4394abab62787f9b065"
+libc = "glibc"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "c51be5c16b696d0a5f32b34537da2e467fcdf4d1d922a8c4de02f115c4308a23"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.armv7l-linux-gnueabihf.tar.gz"
+[[MongoC]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d4e10cc4785ad670fa84f870236c8ec3bc1d333a"
+libc = "musl"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "8c1de3c14d0c222b60184d7dcc6200aca861e19fb6e2b0ef860623b23c76c1d6"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.armv7l-linux-musleabihf.tar.gz"
+[[MongoC]]
+arch = "i686"
+git-tree-sha1 = "e35d031480458ffd5cd562764284a6a5cfcf859b"
+libc = "glibc"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "225ec725d88fb6b3c89fc945aaf7eed822ffc3399bcb61abf340354d9073dd3b"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.i686-linux-gnu.tar.gz"
+[[MongoC]]
+arch = "i686"
+git-tree-sha1 = "a3d70a14e46a3492ab2f48184e749cd3212b7dc4"
+libc = "musl"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "de938b4e5588d2436244a5d6b938654deb58e86300ff86ed93a67a850770c4a9"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.i686-linux-musl.tar.gz"
+[[MongoC]]
+arch = "i686"
+git-tree-sha1 = "d7fa8175241115837c181477a225c976143fb3a0"
 os = "windows"
 
     [[MongoC.download]]
-    sha256 = "48d0e23934a3c43c1455382ad72232cc9fe48a1cf5ee370caa0336e29d215760"
-    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.25.1+0/MongoC.v1.25.1.x86_64-w64-mingw32.tar.gz"
+    sha256 = "cbda9dd7dabe0da22ad9280f9a4fa46e8e686f26d8fed52086b3160dd0531120"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.i686-w64-mingw32.tar.gz"
+[[MongoC]]
+arch = "powerpc64le"
+git-tree-sha1 = "41bfd5057a0a628cf40df0b1c2b351cf2387876b"
+libc = "glibc"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "617c33dcb5b28cce19495ce3f4cb42c63e91130ce41e60534c1b2211d344c8a7"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.powerpc64le-linux-gnu.tar.gz"
+[[MongoC]]
+arch = "x86_64"
+git-tree-sha1 = "f1ddc7b157230f2f92eeed64d1f6bb58516e5770"
+os = "macos"
+
+    [[MongoC.download]]
+    sha256 = "6d841daf244488475a5fe943148128607409c0092bb7c3cb9c827a6e2304e81e"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.x86_64-apple-darwin.tar.gz"
+[[MongoC]]
+arch = "x86_64"
+git-tree-sha1 = "ccbf834dee3ed4a30ecdf325bb44fd35c7a379fd"
+libc = "glibc"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "7cd1b08129496daa00b365999462d0a3cec927be77bad794da00984368fb846e"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.x86_64-linux-gnu.tar.gz"
+[[MongoC]]
+arch = "x86_64"
+git-tree-sha1 = "e44512912d32c824594ce3f3231de0c2090f0346"
+libc = "musl"
+os = "linux"
+
+    [[MongoC.download]]
+    sha256 = "ebf900266846805f5bdf702ab669098474831a73001e5d926854907574bc5fc4"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.x86_64-linux-musl.tar.gz"
+[[MongoC]]
+arch = "x86_64"
+git-tree-sha1 = "9fc0703c451ebb9fc3fd01d5ac911fbd6f20bb10"
+os = "freebsd"
+
+    [[MongoC.download]]
+    sha256 = "93eebfcfcf2371836e708ab6525e95220068e3ec9400e5d5877662408181039b"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.x86_64-unknown-freebsd.tar.gz"
+[[MongoC]]
+arch = "x86_64"
+git-tree-sha1 = "ae9355bc42f3c7d3424dfee44f29f3b96eb6f3ab"
+os = "windows"
+
+    [[MongoC.download]]
+    sha256 = "da3df6fa5d85f14b0f377a61c67bb64be15b942b2c091d2c5fb0ede9ab30a7f9"
+    url = "https://github.com/JuliaBinaryWrappers/MongoC_jll.jl/releases/download/MongoC-v1.28.1+0/MongoC.v1.28.1.x86_64-w64-mingw32.tar.gz"
